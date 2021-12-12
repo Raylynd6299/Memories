@@ -9,9 +9,10 @@ class MyApp extends StatelessWidget {
 	Widget build(BuildContext context) {
 		return MaterialApp(
 			debugShowCheckedModeBanner: false,
-			title: 'Flutter Demo',
+			title: 'Secret Memories',
 			theme: ThemeData(
 				primarySwatch: ThemeColors.primaryColor,
+                fontFamily: "Fira_Sans",
 			),
 			home: const MyHomePage(title: 'Secret Memories'),
 		);

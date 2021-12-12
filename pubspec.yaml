@@ -68,22 +68,65 @@ flutter:
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
 
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Fira_Sans
+      fonts:
+        - asset: assets/fonts/Fira_Sans/FiraSans-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Fira_Sans/FiraSans-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Fira_Sans/FiraSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Fira_Sans/FiraSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Fira_Sans/FiraSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Fira_Sans/FiraSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Fira_Sans/FiraSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora/Lora-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Lora/Lora-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lora/Lora-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Lora/Lora-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Lora/Lora-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Lora/Lora-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Lora/Lora-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Lora/Lora-SemiBold.ttf
+          weight: 600
+
