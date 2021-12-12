@@ -1,0 +1,22 @@
+	- family: Fira_Sans
+	  fonts:
+		- asset: assets/fonts/Fira_Sans/FiraSans-Thin.ttf
+		  weight: 100
+		- asset: assets/fonts/Fira_Sans/FiraSans-ThinItalic.ttf
+		  weight: 100
+		  style: italic
+		- asset: assets/fonts/Fira_Sans/FiraSans-ExtraLight.ttf
+		  weight: 200
+		- asset: assets/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf
+		  weight: 200
+		  style: italic
+		- asset: assets/fonts/Fira_Sans/FiraSans-Light.ttf
+		  weight: 300
+		- asset: assets/fonts/Fira_Sans/FiraSans-LightItalic.ttf
+		  weight: 300
+		  style: italic
+		- asset: assets/fonts/Fira_Sans/FiraSans-Regular.ttf
+		  weight: 400
+		- asset: assets/fonts/Fira_Sans/FiraSans-Italic.ttf
+		  weight: 400
+		  style: italic
