@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import "package:memories/screens/home/main.dart";
+import "package:memories/styles/colors.dart";
 
 class MyApp extends StatelessWidget {
   	const MyApp({Key? key}) : super(key: key);
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 			debugShowCheckedModeBanner: false,
 			title: 'Flutter Demo',
 			theme: ThemeData(
-				primarySwatch: Colors.brown,
+				primarySwatch: ThemeColors.primaryColor,
 			),
-			home: const MyHomePage(title: 'Flutter Demo Home Page'),
+			home: const MyHomePage(title: 'Secret Memories'),
 		);
 	}
 }
